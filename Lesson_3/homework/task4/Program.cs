@@ -18,7 +18,7 @@ for (int i = array.Length; i > 0; i--)
 }
 
 Console.Write("Знаки числа: ");
-foreach(int n in array)
+foreach (int n in array)
 {
-   Console.Write($"{n} "); 
+    Console.Write($"{n} ");
 }
