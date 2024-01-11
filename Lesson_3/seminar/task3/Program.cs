@@ -1,15 +1,9 @@
 ﻿int[] array = { 2, 3, 1, 7, 5, 6, 3 };
 int[] arrayRezult = new int[array.Length / 2];
-int back = array.Length - 1;
 
-
-
-for (int i = 0; i < array.Length / 2; i++)
+for (int i = 0, j = array.Length - 1; i < array.Length / 2; i++, j--)
 {
-    arrayRezult[i] = array[i] * array[back - i];
+    arrayRezult[i] = array[i] * array[j];
 }
 
-foreach (int n in arrayRezult)
-{
-    Console.Write(n + " ");
-}
+Console.Write(string.Join(" ", arrayRezult));

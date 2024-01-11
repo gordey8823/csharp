@@ -2,18 +2,7 @@
 
 for (int i = 0; i < array.Length; i++)
 {
-    if (array[i] > 0)
-    {
-        array[i] = -array[i];
-    }
-    else
-    {
-        array[i] = array[i] * -1;
-    }
+    array[i] *= -1;
 }
 
-foreach (int l in array)
-{
-    Console.Write($"{l} ");
-}
-
+Console.Write(string.Join(" ", array));
