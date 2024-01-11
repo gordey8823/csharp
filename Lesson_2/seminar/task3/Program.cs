@@ -12,5 +12,5 @@ if (remainder == 0)
 }
 else
 {
-    Console.WriteLine ($"нет, {remainder}");
+    Console.WriteLine($"нет, {remainder}");
 }

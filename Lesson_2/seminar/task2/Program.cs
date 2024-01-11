@@ -5,7 +5,7 @@ int exponent = number % 10;
 int baseNumber = number / 10 % 10;
 int result = 1;
 
-for(int i = 0; i < exponent; i++)
+for (int i = 0; i < exponent; i++)
 {
     result *= baseNumber;
 }

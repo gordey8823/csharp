@@ -7,7 +7,7 @@ int index = 0;
 while (number > 0)
 {
     array[index] = number % 10;
-    index +=1;
+    index += 1;
     number /= 10;
 }
 Console.WriteLine("");

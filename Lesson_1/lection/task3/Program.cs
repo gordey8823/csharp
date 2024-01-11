@@ -7,7 +7,7 @@ if (a > b)
 {
     Console.WriteLine(a);
 }
-else 
+else
 {
     Console.WriteLine(b);
 }

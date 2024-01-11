@@ -1,10 +1,11 @@
 ﻿using System;
 
-public class Answer {
+public class Answer
+{
     static void CompareNumbers(int firstNumber, int secondNumber)
     {
-    // Рещение
-        if(firstNumber > secondNumber)
+        // Рещение
+        if (firstNumber > secondNumber)
         {
             Console.WriteLine($"Первое число `{firstNumber}` больше чем второе число `{secondNumber}`");
         }
@@ -16,18 +17,22 @@ public class Answer {
         {
             Console.WriteLine($"Введенные числа равны `{secondNumber}`");
         }
-    // Конец решения
+        // Конец решения
     }
 
 
-  // Не удаляйте и не меняйте метод Main! 
-    static public void Main(string[] args) {
+    // Не удаляйте и не меняйте метод Main! 
+    static public void Main(string[] args)
+    {
         int firstNumber, secondNumber;
-        if (args.Length >= 2) {
+        if (args.Length >= 2)
+        {
             firstNumber = int.Parse(args[0]);
             secondNumber = int.Parse(args[1]);
-        } else {
-           // Здесь вы можете поменять значения для отправки кода на Выполнение
+        }
+        else
+        {
+            // Здесь вы можете поменять значения для отправки кода на Выполнение
             firstNumber = 5;
             secondNumber = 5;
         }

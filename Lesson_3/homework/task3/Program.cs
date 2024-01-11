@@ -1,11 +1,11 @@
-﻿double[] array = {2.2, 0.4, 9.11, 7.2, 78.98};
+﻿double[] array = { 2.2, 0.4, 9.11, 7.2, 78.98 };
 
 double min = array[0];
 double max = array[0];
 
 foreach (double i in array)
 {
-    if (i>max)
+    if (i > max)
     {
         max = i;
     }

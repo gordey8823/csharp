@@ -6,7 +6,7 @@ for (int i = 0; i < array.Length; i++)
     {
         array[i] = -array[i];
     }
-    else 
+    else
     {
         array[i] = array[i] * -1;
     }

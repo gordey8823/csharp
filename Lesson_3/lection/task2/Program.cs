@@ -8,7 +8,6 @@ while (i < arr.Length)
     if (arr[i] % 2 == 0)
     {
         Console.Write($"{arr[i]} ");
-        
     }
     i += 1;
 }

@@ -8,7 +8,7 @@ Console.WriteLine("Сложение 1");
 Console.WriteLine(sum);
 
 long l1 = 6;
-long sum2 = l1 +i1;
+long sum2 = l1 + i1;
 Console.WriteLine("Сложение 2");
 Console.WriteLine(sum2);
 

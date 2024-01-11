@@ -10,7 +10,7 @@ if (Convert.ToInt32(number) < 10)
 }
 else
 {
-    for(int i = 0; i < numberLength; i++)
+    for (int i = 0; i < numberLength; i++)
     {
         Console.Write(number[i]);
         Console.Write(", ");

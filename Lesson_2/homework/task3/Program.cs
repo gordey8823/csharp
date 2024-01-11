@@ -8,7 +8,7 @@ if (firstNumber > secondNumber)
 {
     Console.Write($"У введенного числа `{number}` первый знак `{firstNumber}` больше второго `{secondNumber}`");
 }
-else if(secondNumber > firstNumber)
+else if (secondNumber > firstNumber)
 {
     Console.Write($"У введенного числа `{number}` первый знак `{firstNumber}` меньше второго `{secondNumber}`");
 }
