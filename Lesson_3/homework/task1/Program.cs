@@ -14,7 +14,7 @@ class UserInputToCompileForTest
         int count = 0;
         foreach (int i in numbers)
         {
-            if (i >= minRange && i <= maxRange)
+            if (minRange <= i && i <= maxRange)
             {
                 count += 1;
             }
