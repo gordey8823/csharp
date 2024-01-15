@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 
 //Тело класса будет написано студентом. Класс обязан иметь статический метод PrintResult()

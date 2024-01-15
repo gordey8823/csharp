@@ -1,6 +1,5 @@
-﻿using System;
+using System;
 using System.Linq;
-
 //Тело класса будет написано студентом. Класс обязан иметь статический метод PrintResult()
 class UserInputToCompileForTest
 {
@@ -8,6 +7,7 @@ class UserInputToCompileForTest
 
     // Нахождение минимума массива
     public static double FindMin(double[] numbers)
+
     {
         //Напишите свое решение здесь
         double min = numbers[0];
@@ -37,8 +37,6 @@ class UserInputToCompileForTest
         }
         return max;
     }
-
-
 
     public static void PrintResult(double[] array)
     {
